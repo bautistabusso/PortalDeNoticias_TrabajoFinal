@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Admin</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <h1>Panel de Administración</h1>
+
+        <nav>
+            <a href="index.html">Volver al inicio</a>
+        </nav>
+    </header>
+
+
+    <!-- FORMULARIO -->
+    <section class="admin-form">
+        <h2>Agregar / Editar Noticia</h2>
+
+        <form id="form-noticia">
+            <input type="text" id="titulo" placeholder="Título" required>
+            <input type="text" id="imagen" placeholder="URL de la imagen" required>
+            <textarea id="descripcion" placeholder="Descripción" required></textarea>
+
+            <button type="submit">Guardar noticia</button>
+        </form>
+    </section>
+
+
+    <!-- LISTADO -->
+    <section class="admin-list">
+        <h2>Noticias cargadas</h2>
+        <div id="admin-news-container"></div>
+    </section>
+
+
+    <!-- JS -->
+    <script src="js/admin.js"></script>
+</body>
+</html>
