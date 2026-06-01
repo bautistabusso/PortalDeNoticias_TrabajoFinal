@@ -59,9 +59,36 @@ function renderNoticias() {
     });
 }
 
+async function cargarDolar() {
+    const contenedor = document.getElementById("dolar-container");
 
+    try {
+        const respuesta = await fetch(
+            "https://api.bluelytics.com.ar/v2/latest"
+        );
+
+        if (!respuesta.ok) {
+            throw new Error("Error al obtener datos");
+        }
+
+        const datos = await respuesta.json();
+
+        contenedor.innerHTML = `
+            <p>Dólar Blue Compra: $${datos.blue.value_buy}</p>
+            <p>Dólar Blue Venta: $${datos.blue.value_sell}</p>
+        `;
+
+    } catch (error) {
+        contenedor.innerHTML = `
+            <p>Error al cargar la cotización.</p>
+        `;
+
+        console.error(error);
+    }
+}
 
 // ===== INICIALIZACIÓN =====
 document.addEventListener("DOMContentLoaded", () => {
     renderNoticias();
+    cargarDolar();
 });

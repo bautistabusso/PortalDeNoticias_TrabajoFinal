@@ -1,5 +1,30 @@
+const usuarioLogueado =
+    sessionStorage.getItem(
+        "usuarioLogueado"
+    );
+
+if (!usuarioLogueado) {
+
+    window.location.href =
+        "login.html";
+}
+
 const STORAGE_KEY = "noticias";
 
+
+function logout() {
+
+    sessionStorage.removeItem(
+        "usuarioLogueado"
+    );
+
+    window.location.href =
+        "index.html";
+}
+
+document
+    .getElementById("logout-btn")
+    .addEventListener("click", logout);
 
 // ===== OBTENER =====
 function obtenerNoticias() {
