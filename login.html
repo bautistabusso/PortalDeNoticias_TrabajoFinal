@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <title>Login Admin</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
 
-    <h1>Login Administrador</h1>
+    <div class="login-container">
 
-    <form id="login-form">
+        <h1>🔐 Login Administrador</h1>
 
-        <input
-            type="text"
-            id="username"
-            placeholder="Usuario"
-            required
-        >
+        <form id="login-form">
 
-        <input
-            type="password"
-            id="password"
-            placeholder="Contraseña"
-            required
-        >
+            <input
+                type="text"
+                id="username"
+                placeholder="Usuario"
+                required
+            >
 
-        <button type="submit">
-            Ingresar
-        </button>
+            <input
+                type="password"
+                id="password"
+                placeholder="Contraseña"
+                required
+            >
 
-    </form>
+            <button type="submit">
+                Ingresar
+            </button>
 
-    <p id="mensaje"></p>
+        </form>
+
+        <p id="mensaje"></p>
+
+    </div>
 
     <script src="js/auth.js"></script>
 
