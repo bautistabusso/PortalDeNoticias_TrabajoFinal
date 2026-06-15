@@ -7,17 +7,17 @@ const noticiasIniciales = [
     {
         titulo: "El dólar sube nuevamente",
         descripcion: "El dólar blue registra una nueva suba en el mercado informal.",
-        imagen: "https://via.placeholder.com/300x150"
+        imagen: "https://media.lacapital.com.ar/p/618ce71c47f49dc403e52d8fae1dd30f/adjuntos/203/imagenes/100/104/0100104061/642x0/smart/dolarjpg.jpg"
     },
     {
         titulo: "Expectativas económicas",
         descripcion: "Analistas prevén cambios en la cotización del dólar.",
-        imagen: "https://via.placeholder.com/300x150"
+        imagen: "https://www.cronista.com/resizer/v2/CJQ27CDBD5EYTDCMPSH6Y4SRWY.jpg?auth=398219eebc21884d7eb8faf6df51a188d43b59c0f8df74e1ca028fbc290cb028&height=450&width=800&quality=70&smart=true"
     },
     {
         titulo: "Impacto en el consumo",
         descripcion: "El aumento del dólar afecta los precios de productos importados.",
-        imagen: "https://via.placeholder.com/300x150"
+        imagen: "https://politicaymedios.com.ar/uploads/noticias/780x434/2025/03/20250327141127_dolar.jpg"
     }
 ];
 
