@@ -1,3 +1,8 @@
+
+if (localStorage.getItem("tema") === "dark") {
+    document.body.classList.add("dark-mode");
+}
+
 async function login(event) {
 
     event.preventDefault();
