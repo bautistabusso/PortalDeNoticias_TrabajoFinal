@@ -1,3 +1,10 @@
+const usuarioLogueado =
+    sessionStorage.getItem("usuarioLogueado");
+
+if (!usuarioLogueado) {
+    window.location.href = "login.html";
+}
+
 
 if (localStorage.getItem("tema") === "dark") {
     document.body.classList.add("dark-mode");
@@ -15,13 +22,6 @@ function logout() {
 
     window.location.href =
         "index.html";
-}
-
-const usuarioLogueado =
-    sessionStorage.getItem("usuarioLogueado");
-
-if (!usuarioLogueado) {
-    window.location.href = "login.html";
 }
 
 
