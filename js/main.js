@@ -18,17 +18,17 @@ const noticiasIniciales = [
         titulo: "Impacto en el consumo",
         descripcion: "El aumento del dólar afecta los precios de productos importados.",
         imagen: "https://politicaymedios.com.ar/uploads/noticias/780x434/2025/03/20250327141127_dolar.jpg"
-    }
+    },
     {
         titulo: "Subas del Dolar",
         descripcion: "El dólar volvió a subir y tocó el valor más alto en cuatro meses: a cuánto cotiza el dólar oficial y el blue.",
         imagen: "https://politicaymedios.com.ar/uploads/noticias/780x434/2025/03/20250327141127_dolar.jpg"
-    }
+    },
     {
         titulo: "Atención",
         descripcion: "El dólar blue encadena ruedas consecutivas por encima de los $1.400 y el mercado cambiario sigue atento.",
         imagen: "https://politicaymedios.com.ar/uploads/noticias/780x434/2025/03/20250327141127_dolar.jpg"
-    }
+    },
     {
         titulo: "Macroeconomía",
         descripcion: "Banco Central compró dólares, sumó reservas y el Riesgo País bajó a 425 puntos.",
