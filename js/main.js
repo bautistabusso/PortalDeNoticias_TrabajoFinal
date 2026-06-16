@@ -22,17 +22,17 @@ const noticiasIniciales = [
     {
         titulo: "Subas del Dolar",
         descripcion: "El dólar volvió a subir y tocó el valor más alto en cuatro meses: a cuánto cotiza el dólar oficial y el blue.",
-        imagen: "https://politicaymedios.com.ar/uploads/noticias/780x434/2025/03/20250327141127_dolar.jpg"
+        imagen: "https://www.shutterstock.com/image-photo/stock-market-trends-us-dollar-600nw-2739777021.jpg"
     },
     {
         titulo: "Atención",
         descripcion: "El dólar blue encadena ruedas consecutivas por encima de los $1.400 y el mercado cambiario sigue atento.",
-        imagen: "https://politicaymedios.com.ar/uploads/noticias/780x434/2025/03/20250327141127_dolar.jpg"
+        imagen: "https://agencia.unq.edu.ar/wp-content/uploads/2022/07/Dolar-blue-Argentina.jpg"
     },
     {
         titulo: "Macroeconomía",
         descripcion: "Banco Central compró dólares, sumó reservas y el Riesgo País bajó a 425 puntos.",
-        imagen: "https://politicaymedios.com.ar/uploads/noticias/780x434/2025/03/20250327141127_dolar.jpg"
+        imagen: "https://media.todojujuy.com/p/6885511892b34a1c45b3f31fd31e35a3/adjuntos/227/imagenes/003/459/0003459457/dolar-las-bandas-cambiarias-subiran-34-mayo.jpg"
     }
 ];
 
