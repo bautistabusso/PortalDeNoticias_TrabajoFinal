@@ -13,6 +13,13 @@
     --card-bg: #ffffff;
 }
 
+.dark-mode {
+    --bg-color: #121212;
+    --text-color: #f4f4f4;
+    --primary-color: #1f2937;
+    --card-bg: #1e1e1e;
+}
+
 /* ESTILO GENERAL */
 
 

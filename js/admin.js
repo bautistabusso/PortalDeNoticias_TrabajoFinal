@@ -1,4 +1,9 @@
 
+if (localStorage.getItem("tema") === "dark") {
+    document.body.classList.add("dark-mode");
+}
+
+
 const STORAGE_KEY = "noticias";
 
 
@@ -132,3 +137,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     renderAdminNoticias();
 });
+
+if (localStorage.getItem("tema") === "dark") {
+    document.body.classList.add("dark-mode");
+}
