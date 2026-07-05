@@ -25,13 +25,13 @@ const noticiasIniciales = [
     },
     {
         titulo: "El fiscal rechazó la detención de Manuel Adorni",
-        descripcion: 'No hay riesgo de fuga ni de entorpecimiento de la investigación y tiene bienes y “arraigo”',
+        descripcion: 'No hay riesgo de fuga ni de entorpecimiento de la investigación y tiene bienes y “arraigo”.',
         imagen: "https://chequeado.com/wp-content/uploads/2025/11/Manuel-Adorni-Perfil-450x450.webp",
         categoria: "Política"
     },
     {
         titulo: "Argentina sufrió con Cabo Verde, pero esta en octavos de final",
-        descripcion: "Se impuso por 3-2 en el alargue, con goles de Messi, Lisandro Martinez y el Cuti Romero",
+        descripcion: "Se impuso por 3-2 en el alargue, con goles de Messi, Lisandro Martinez y el Cuti Romero.",
         imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9hYb1X88fGgQFj5Z2m2PuKLkeQwJJAYFyK7Pm3KYi2g&s=10",
         categoria: "Deportes"
     },
@@ -43,14 +43,14 @@ const noticiasIniciales = [
     },
     {
         titulo: "Funcionarios de EE.UU. intentaron advertir a Irán sobre el temor de que Israel asesinara a sus mediadores",
-        descripcion: "Los funcionarios señalaron que a Estados Unidos le preocupaba que Israel pudiera matar al presidente del parlamento iraní o al ministro de Asuntos Exteriores",
+        descripcion: "Los funcionarios señalaron que a Estados Unidos le preocupaba que Israel pudiera matar al presidente del parlamento iraní o al ministro de Asuntos Exteriores.",
         imagen: "https://www.lanacion.com.ar/resizer/v2/el-dolar-de-plata-flowing-hair-de-1794-es-uno-de-VOSZPFUD3BGWZCIY6FO6NOZ524.jpg?auth=d1edd977ba7ff6354bbebcf53415e83f232d26998514a37b21136e647e858394&width=1200&height=800&quality=70&smart=false&focal=1008,589",
         categoria: "Internacional"
     },
     {
-        titulo: "Dolar: Julio",
-        descripcion: "Dólar: cómo se mueve la banda cambiaria en julio tras la desaceleración de la inflación.",
-        imagen: "https://www.lanacion.com.ar/resizer/v2/con-el-nuevo-dato-de-inflacion-de-mayo-se-6NOUQ63QVVDTPA2IEBKGELZGK4.png?auth=6df236669724626cea21b68da81153c554d0f0350350863ef909aefb0b466f95&width=1200&height=800&quality=70&smart=true",
+        titulo: "El agro argentino es el gran “gigante dormido” de la economía nacional",
+        descripcion: "La extraordinaria demanda energética y alimentaria coloca a la Argentina como uno de los países más favorecidos por la nueva situación mundial.",
+        imagen: "https://www.clarin.com/img/2014/02/14/BkbpU9wsXl_1256x620.jpg",
         categoria: "Economía"
     },
     {
@@ -64,7 +64,43 @@ const noticiasIniciales = [
         descripcion: "El juez Marcelo Quiroga rechazó el planteo de Juan Monteverde. La causa sigue abierta, pero los trabajos en la costanera norte pueden continuar.",
         imagen: "https://media.letrap.com.ar/p/2ee932f8aff6c9847c0e7d03cd90ee15/adjuntos/349/imagenes/100/182/0100182917/790x0/smart/pablo-javkin-apertura-sesiones.jpg",
         categoria: "Política"
-    }
+    },
+        {
+            titulo: "Francia le ganó una batalla a Paraguay y está en cuartos",
+        descripcion: "Esta vez no hubo milagro para el equipo de Alfaro: con gol de Mbappé, de penal, Les Bleus ganaron 1-0 y lo sacaron del Mundial. Ahora se le viene Marruecos.",
+        imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu7VhK3kxSi-cAUimne71URYkJhkU4vT1BoNPrtnjS_g&s=10https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu7VhK3kxSi-cAUimne71URYkJhkU4vT1BoNPrtnjS_g&s=10",
+        categoria: "Deportes"
+    },
+        {
+            titulo: "Javier Milei saludó a EEUU por el Día de la Independencia",
+        descripcion: "El presidente afirmó que la soberanía norteamericana se fundó con el “deber de proteger la libertad y sus frutos” principio que, según dijo, comparte Argentina.",
+        imagen: "https://www.infobae.com/resizer/v2/MRQMQPAD4VCPRDSGQ6TFZIJ344.JPG?auth=68d4ab2ddbfe6bc0018a1e7e445bc7716e48fe5bb4bdceb5d3ef28ae21e111a1&smart=true&width=992&height=670&quality=85",
+        categoria: "Política"
+    },
+        {
+            titulo: "A partir de este miércoles, Milei decidió cambiar las pensiones de Anses",
+        descripcion: "El calendario de pagos de julio comenzará este miércoles con haberes actualizados por movilidad.",
+        imagen: "https://i1.baenegocios.com/files/image/343/343241/6a10a851b847e_992_558!.webp?s=8d43944ba584eb258ee7cd5c756bff81&d=1783137221&oe=png",
+        categoria: "Política"
+    },
+        {
+            titulo: "La guerra de Ucrania supera los dos millones de bajas militares",
+        descripcion: "Según un estudio, Rusia acumula la mayoría de pérdidas, con hasta 1,4 millones de soldados heridos o muertos en combate.",
+        imagen: "https://www.lavanguardia.com/files/image_936_458/files/fp/uploads/2026/07/02/6a467dbe59855.r_d.469-282-10185.jpeg",
+        categoria: "Internacional"
+    },
+        {
+            titulo: "Colapinto se despistó en la qualy y largará en un lejano 19° lugar en Silverstone",
+        descripcion: "El argentino, cuando buscaba la vuelta rápida, se fue afuera y desperdició la chance de clasificarse a la Q2, como sí pudo lograr su compañero, Pierre Gasly, que partirá 12°.",
+        imagen: "https://www.ole.com.ar/images/2026/07/04/C1P459_jl_970x660__1.jpg",
+        categoria: "Deportes"
+    },
+        {
+            titulo: "Un argentino es candidato a cubrir un cargo en Interpol Internacional",
+        descripcion: "Ramiro Anzit Guerrero, actual director Nacional de Inteligencia Criminal de la Argentina, fue seleccionado como candidato para la Comisión de Control de Ficheros de la Organización Internacional INTERPOL, en Lyon (Francia).",
+        imagen: "https://laverdadonline.com/wp-content/uploads/2026/07/3-organizacion.webp",
+        categoria: "Internacional"
+    },
 
 ];
 
