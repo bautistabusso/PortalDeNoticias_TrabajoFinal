@@ -10,8 +10,6 @@
 </head>
 <body>
 
-
-
     <!-- HEADER -->
     <header class="header">
         <h1>💵 Portal del Dólar</h1>
@@ -25,36 +23,40 @@
         <button id="theme-toggle">🌙</button>
     </header>
 
-
     <!-- SECCIÓN DÓLAR -->
     <section class="dolar">
         <h2>Precio del Dólar</h2>
 
         <div id="dolar-container">
-            <!-- JS va a insertar los valores acá -->
             <p>Cargando cotización...</p>
         </div>
     </section>
-    
-
 
     <!-- SECCIÓN NOTICIAS -->
     <main class="noticias">
         <h2>Noticias</h2>
+
+        <!-- FILTRO DE CATEGORÍAS -->
+        <div class="filtros">
+            <button class="filtro-btn active" data-categoria="Todas">Todas</button>
+            <button class="filtro-btn" data-categoria="Economía">Economía</button>
+            <button class="filtro-btn" data-categoria="Política">Política</button>
+            <button class="filtro-btn" data-categoria="Deportes">Deportes</button>
+            <button class="filtro-btn" data-categoria="Internacional">Internacional</button>
+        </div>
 
         <div id="news-container">
             <!-- JS va a renderizar las noticias -->
         </div>
     </main>
 
-
     <!-- FOOTER -->
     <footer class="footer">
         <p>© 2026 - Portal del Dólar</p>
     </footer>
 
-
     <!-- JS -->
     <script src="js/main.js"></script>
+
 </body>
 </html>

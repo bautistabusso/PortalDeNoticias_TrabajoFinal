@@ -53,20 +53,21 @@ function guardarNoticia(event) {
     event.preventDefault();
 
     const titulo = document.getElementById("titulo").value;
-    const imagen = document.getElementById("imagen").value;
-    const descripcion = document.getElementById("descripcion").value;
+const imagen = document.getElementById("imagen").value;
+const categoria = document.getElementById("categoria").value;
+const descripcion = document.getElementById("descripcion").value;
 
     const noticias = obtenerNoticias();
 
     if (modoEdicion) {
         // EDITAR
-        noticias[indexEdicion] = { titulo, imagen, descripcion };
+        noticias[indexEdicion] = { titulo, imagen, categoria, descripcion };
 
         modoEdicion = false;
         indexEdicion = null;
     } else {
         // CREAR
-        noticias.push({ titulo, imagen, descripcion });
+        noticias.push({ titulo, imagen, categoria, descripcion });
     }
 
     guardarNoticias(noticias);
@@ -96,6 +97,7 @@ function editarNoticia(index) {
 
     document.getElementById("titulo").value = noticia.titulo;
     document.getElementById("imagen").value = noticia.imagen;
+    document.getElementById("categoria").value = noticia.categoria;
     document.getElementById("descripcion").value = noticia.descripcion;
 
     modoEdicion = true;
@@ -117,6 +119,7 @@ function renderAdminNoticias() {
         card.innerHTML = `
             <img src="${noticia.imagen}" alt="noticia">
             <div class="card-content">
+                <p class="categoria">${noticia.categoria}</p>
                 <h3>${noticia.titulo}</h3>
                 <p>${noticia.descripcion}</p>
 

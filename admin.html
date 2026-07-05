@@ -16,20 +16,37 @@
         </nav>
     </header>
 
-
     <!-- FORMULARIO -->
     <section class="admin-form">
         <h2>Agregar / Editar Noticia</h2>
 
         <form id="form-noticia">
             <input type="text" id="titulo" placeholder="Título" required>
-            <input type="url" id="imagen" placeholder="URL de la imagen" required>
-            <textarea id="descripcion" placeholder="Descripción" required></textarea>
+
+            <input
+                type="url"
+                id="imagen"
+                placeholder="URL de la imagen"
+                required
+            >
+
+            <!-- NUEVA CATEGORÍA -->
+            <select id="categoria" required>
+                <option value="Economía">Economía</option>
+                <option value="Política">Política</option>
+                <option value="Deportes">Deportes</option>
+                <option value="Internacional">Internacional</option>
+            </select>
+
+            <textarea
+                id="descripcion"
+                placeholder="Descripción"
+                required
+            ></textarea>
 
             <button type="submit">Guardar noticia</button>
         </form>
     </section>
-
 
     <!-- LISTADO -->
     <section class="admin-list">
@@ -38,11 +55,11 @@
     </section>
 
     <button id="logout-btn">
-       Cerrar sesión
+        Cerrar sesión
     </button>
-
 
     <!-- JS -->
     <script src="js/admin.js"></script>
+
 </body>
 </html>
