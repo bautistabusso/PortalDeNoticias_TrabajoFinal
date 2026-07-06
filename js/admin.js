@@ -53,9 +53,9 @@ function guardarNoticia(event) {
     event.preventDefault();
 
     const titulo = document.getElementById("titulo").value;
-const imagen = document.getElementById("imagen").value;
-const categoria = document.getElementById("categoria").value;
-const descripcion = document.getElementById("descripcion").value;
+    const imagen = document.getElementById("imagen").value;
+    const categoria = document.getElementById("categoria").value;
+    const descripcion = document.getElementById("descripcion").value;
 
     const noticias = obtenerNoticias();
 
@@ -141,6 +141,3 @@ document.addEventListener("DOMContentLoaded", () => {
     renderAdminNoticias();
 });
 
-if (localStorage.getItem("tema") === "dark") {
-    document.body.classList.add("dark-mode");
-}
